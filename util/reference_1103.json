@@ -3,127 +3,123 @@
     "cssRefer": [
         {
             "num": 1,
-            "title": "align-content",
-            "desc": "aling-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
-            "descBasic": "align-content : stretch",
+            "title": "backdrop-filter",
+            "desc": "backdrop-filter 속성은 요소 뒤 영역에 흐림 또는 색상 이동과 같은 그래픽 효과를 적용할 수 있습니다 .",
+            "descBasic": "backdrop-filter : blur(2px)",
             "descApple": "모든 속성",
             "descVer": "CSS3",
-            "descStar": "★★★☆☆",
+            "descStar": "💜💜🤍🤍🤍",
             "definition": [
-                "align-content 속성은 콘텐츠 아이템의 상하관계 정렬 상태를 설정합니다.",
-                "align-content 속성은 한 줄(flex-wrap: nowrap)에서는 의미가 없습니다."
+                "backdrop-filter 속성을 사용하려면 요소나 배경을 최소한 부분적으로 투명해야 합니다.",
+                "backdrop-filter 속성은 모든 요소; SVG에서는 defs요소 및 모든 그래픽 요소를 제외한 컨테이너 요소에 적용됩니다."
             ]
         },
         {
             "num": 2,
-            "title": "align-items",
-            "desc": "align-items 속성은 콘텐츠 아이템의 내부 상하관계 정렬 상태를 설정합니다.",
-            "descBasic": "align-items  : stretch",
+            "title": "background-color",
+            "desc": "background-color 속성은 배경 색상을 설정합니다.",
+            "descBasic": "background-color  : purple",
             "descApple": "모든 속성",
             "descVer": "CSS3",
-            "descStar": "★★★☆☆",
+            "descStar": "💜💜💜💜💜",
             "definition": [
-                "align-items 속성은 콘텐츠 아이템의 내부 상하관계 정렬 상태를 설정합니다.",
-                "align-content 속성은 한 줄(flex-wrap: nowrap)에서는 의미가 없습니다."
+                "background-color 속성은 배경 색상을 설정합니다."
             ]
         },
         {
             "num": 3,
-            "title": "align-self",
-            "desc": "align-self 속성은 콘텐츠 아이템의 내부 상하관계 정렬 상태를 설정합니다.",
-            "descBasic": "align-self : auto",
+            "title": "background-position",
+            "desc": "background-position 속성은 백그라운드 이미지의 위치 영역을 설정합니다.",
+            "descBasic": "background-position : center",
             "descApple": "모든 속성",
             "descVer": "CSS3",
-            "descStar": "★★★☆☆",
+            "descStar": "💜💜💜🤍🤍",
             "definition": [
-                "align-self 속성은 콘텐츠 아이템의 내부 상하관계 정렬 상태를 설정합니다.",
-                "align-content 속성은 한 줄(flex-wrap: nowrap)에서는 의미가 없습니다."
+                "background-position 속성은 백그라운드 이미지의 위치 영역을 설정합니다."
             ]
         },
         {
             "num": 4,
-            "title": "all",
-            "desc": "all 속성은 요소의 속성을 초기화 또는 상속을 설정합니다.",
-            "descBasic": "all : auto",
+            "title": "background-size",
+            "desc": "background-size 속성은 백그라운드 이미지 사이즈를 설정합니다.",
+            "descBasic": "background-size : cover",
             "descApple": "모든 속성",
             "descVer": "CSS3",
-            "descStar": "★★★☆☆",
+            "descStar": "💜💜💜💜🤍",
             "definition": [
-                "all 속성은 요소의 속성을 초기화 또는 상속을 설정합니다.",
-                "all 속성은 모든 속성에서 사용가능합니다."
+                "background-size 속성은 백그라운드 이미지 사이즈를 설정합니다."
             ]
         },
         {
             "num": 5,
-            "title": "animation",
-            "desc": "animation 속성은 애니메이션과 관련된 속성을 일괄적으로 설정합니다.",
-            "descBasic": "animation : auto",
-            "descApple": "animation",
+            "title": "border",
+            "desc": "border 속성은 테두리 속성을 일괄적으로 설정합니다.",
+            "descBasic": "border : 1px solid black",
+            "descApple": "border",
             "descVer": "CSS3",
-            "descStar": "★★★☆☆",
+            "descStar": "💜💜💜💜💜",
             "definition": [
-                "animation 속성은 애니메이션과 관련된 속성을 일괄적으로 설정합니다."
+                "border 속성은 테두리 속성을 일괄적으로 설정합니다."
             ]
         },
         {
             "num": 6,
-            "title": "animation-delay",
-            "desc": "animation-delay 속성은 애니메이션 지연 시간을 설정합니다.",
-            "descBasic": "animation-delay : auto",
-            "descApple": "animation",
+            "title": "color",
+            "desc": "color 속성은 텍스트 내용의 글자 색상을 지정합니다.",
+            "descBasic": "color : purple",
+            "descApple": "color",
             "descVer": "CSS3",
-            "descStar": "★★★☆☆",
+            "descStar": "💜💜💜💜💜",
             "definition": [
-                "animation-delay 속성은 애니메이션 지연 시간을 설정합니다."
+                "color 속성은 텍스트 내용의 글자 색상을 지정합니다."
             ]
         },
         {
             "num": 7,
-            "title": "animation-direction",
-            "desc": "animation-direction 속성은 애니메이션 움직임 방향을 설정합니다.",
-            "descBasic": "animation-direction : auto",
-            "descApple": "animation",
+            "title": "display",
+            "desc": "display 속성은 엘리먼트의 디스플레이 속성을 지정한다.",
+            "descBasic": "display : flex",
+            "descApple": "display",
             "descVer": "CSS3",
-            "descStar": "★★★☆☆",
+            "descStar": "💜💜💜💜💜",
             "definition": [
-                "animation-direction 속성은 애니메이션 움직임 방향을 설정합니다."
+                "display 속성은 엘리먼트의 디스플레이 속성을 지정한다."
             ]
         },
         {
             "num": 8,
-            "title": "animation-duration",
-            "desc": "animation-duration 속성은 애니메이션 움직임 시간을 설정합니다.",
-            "descBasic": "animation-duration : 0s;",
-            "descApple": "animation",
+            "title": "filter",
+            "desc": "filter 속성은 요소 흐림 또는 색상 변화와 같은 그래픽 효과를 적용한다. ",
+            "descBasic": "filter : blur(5px);",
+            "descApple": "filter",
             "descVer": "CSS3",
-            "descStar": "★★★☆☆",
+            "descStar": "💜💜💜🤍🤍",
             "definition": [
-                "animation-duration 속성은 애니메이션 움직임 시간을 설정합니다."
+                "filter 속성은 요소 흐림 또는 색상 변화와 같은 그래픽 효과를 적용한다."
             ]
         },
         {
             "num": 9,
-            "title": "animation-name",
-            "desc": "animation-name 속성은 애니메이션 keyframe 이름을 설정합니다.",
-            "descBasic": "animation-name : none;",
-            "descApple": "animation",
+            "title": "flex-wrap",
+            "desc": "flex-wrap 속성은 flexible item을 wrap 할것인지 아닌지를 지정한다.",
+            "descBasic": "flex-wrap : nowrap;",
+            "descApple": "flex-wrap",
             "descVer": "CSS3",
-            "descStar": "★★★☆☆",
+            "descStar": "💜💜💜🤍🤍",
             "definition": [
-                "animation-name 속성은 애니메이션 keyframe 이름을 설정합니다."
+                "flex-wrap 속성은 flexible item을 wrap 할것인지 아닌지를 지정한다."
             ]
         },
         {
             "num": 10,
-            "title": "background",
-            "desc": "background 속성은 백그라운드 속성을 일괄적으로 설정합니다.",
-            "descBasic": "background : none;",
-            "descApple": "background",
+            "title": "float",
+            "desc": "float 속성은 용기박스를 왼쪽 또는 오른쪽로 이동하거나 이동하지 않음을 지정한다.",
+            "descBasic": "float : left;",
+            "descApple": "float",
             "descVer": "CSS3",
-            "descStar": "★★★☆☆",
+            "descStar": "💜💜💜💜🤍",
             "definition": [
-                "background 속성은 백그라운드 속성을 일괄적으로 설정합니다.",
-                "background 속성은 백그라운드 사이즈, 포지션 등을 추가적으로 설정합니다."
+                "float 속성은 용기박스를 왼쪽 또는 오른쪽로 이동하거나 이동하지 않음을 지정한다."
             ]
         }
     ]
