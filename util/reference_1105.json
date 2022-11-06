@@ -680,7 +680,809 @@
         "descVer": "CSS3",
         "descStar": "★☆☆☆☆",
         "definition": ["요소의 다른 패딩을 정의하는 padding-block-start, padding-inline-start, padding-inline-end 및 와 관련됩니다."]
-      }
-      
+      },
+      {
+        "num": 276,
+        "name": "padding-inline-end",
+        "desc": " 요소의 쓰기 모드, 방향성, 텍스트 방향에 따라 물리적 패딩에 매핑하는 요소의 논리적 인라인 최종 패딩을 정의합니다.",
+        "values": ["<length>", "<percentage>"],
+        "initial": "0",
+        "syntax": "padding-inline-end: 10px",
+        "descApple": "all elements, except table-row-group, table-header-group, table-footer-group, table-row, table-column-group and table-column",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "요소의 논리적 인라인 엔드 패딩을 정의합니다",
+          "이 패딩은 요소의 쓰기 모드, 방향성 및 텍스트 방향에 따라 물리 패딩에 매핑됩니다"
+        ]
+      },
+      {
+        "num": 277,
+        "name": "padding-inline-start",
+        "desc": " 요소의 쓰기 모드, 방향성, 텍스트 방향에 따라 물리적 패딩에 매핑하는 요소의 논리적 인라인 시작 패딩을 정의합니다.",
+        "values": ["<length>", "<percentage>"],
+        "initial": "0",
+        "syntax": "padding-inline-start: 10px",
+        "descApple": "all elements, except table-row-group, table-header-group, table-footer-group, table-row, table-column-group and table-column",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "요소의 논리적 인라인 시작 패딩을 정의합니다",
+          "이 패딩은 요소의 쓰기 모드, 방향성 및 텍스트 방향에 따라 물리적 패딩에 매핑됩니다"
+        ]
+      },
+      {
+        "num": 278,
+        "name": "padding-left",
+        "desc": " 엘리먼트의 왼쪽 여백을 지정한다. ",
+        "values": ["<length>", "<percentage>"],
+        "initial": "0",
+        "syntax": "padding-left: 0.5em",
+        "descApple": "all elements, except table-row-group, table-header-group, table-footer-group, table-row, table-column-group and table-column",
+        "descVer": "CSS3",
+        "descStar": "★★★★★",
+        "definition": ["요소의 왼쪽에 패딩 영역의 폭을 설정합니다"]
+      },
+      {
+        "num": 279,
+        "name": "padding-right",
+        "desc": " 엘리먼트의 오른쪽 여백을 지정한다.",
+        "values": ["<length>", "<percentage>"],
+        "initial": "0",
+        "syntax": "padding-right: 0.5em",
+        "descApple": "all elements, except table-row-group, table-header-group, table-footer-group, table-row, table-column-group and table-column",
+        "descVer": "CSS3",
+        "descStar": "★★★★★",
+        "definition": ["요소의 오른쪽에 있는 패딩 영역의 폭을 설정합니다"]
+      },
+      {
+        "num": 280,
+        "name": "padding-top",
+        "desc": " 요소의 위쪽 패딩을 결정합니다.",
+        "values": ["<length>", "<percentage>"],
+        "initial": "0",
+        "syntax": "padding-top: 0.5em;",
+        "descApple": "all elements, except table-row-group, table-header-group, table-footer-group, table-row, table-column-group and table-column",
+        "descVer": "CSS3",
+        "descStar": "★★★★★",
+        "definition": ["요소 상단에 있는 패딩 영역의 높이를 설정합니다."]
+      },
+      {
+        "num": 281,
+        "name": "page-break-after",
+        "desc": " 페이지 나누기 후 현재 요소.",
+        "values": ["auto", "always", "avoid", "left", "right", "recto", "verso"],
+        "initial": "auto",
+        "syntax": "page-break-after: auto;",
+        "descApple": "block-level elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "현재 요소 뒤에 페이지 구분을 조정합니다",
+          "이 속성은 break-after속성으로 대체되었습니다"
+        ]
+      },
+      {
+        "num": 282,
+        "name": "page-break-before",
+        "desc": "현재 요소 앞에 페이지 구분을 조정합니다",
+        "values": ["auto", "always", "avoid", "left", "right", "recto", "verso"],
+        "initial": "auto",
+        "syntax": "page-break-before: auto;",
+        "descApple": "block-level elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "현재 요소 앞에 페이지 구분을 조정합니다",
+          "이 속성은 break-before 대체되었습니다"
+        ]
+      },
+      {
+        "num": 283,
+        "name": "page-break-inside",
+        "desc": "현재 요소 내의 페이지 나누기를 조정합니다",
+        "values": ["auto", "avoid"],
+        "initial": "auto",
+        "syntax": "page-break-inside: auto;",
+        "descApple": "block-level elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "현재 요소 내의 페이지 나누기를 조정합니다",
+          "이 속성은 break-inside 대체되었습니다"
+        ]
+      },
+      {
+        "num": 284,
+        "name": "perspective",
+        "desc": " 3 차원 위치 요소 일부 관점을 제공하기 위해, Z = 0 인 평면과 사용자 사이의 거리를 결정한다.",
+        "values": ["none", "<length>"],
+        "initial": "none",
+        "syntax": "perspective: none;",
+        "descApple": "transformable elements",
+        "descVer": "CSS3",
+        "descStar": "★★☆☆☆",
+        "definition": [
+          "3D 위치 요소에 원근감을 주기 위해 z=0 평면과 사용자 사이의 거리를 결정합니다"
+        ]
+      },
+      {
+        "num": 285,
+        "name": "perspective-origin",
+        "desc": " 변형되는 요소에 배치되는 perspective() 변형 함수 와 달리 3차원 공간에서 변형된 자식의 부모에 첨부됩니다 .",
+        "values": ["x-position", "y-position"],
+        "initial": "50% 50%",
+        "syntax": "perspective-origin: x-position;",
+        "descApple": "transformable elements",
+        "descVer": "CSS3",
+        "descStar": "★★★☆☆",
+        "definition": [
+          "뷰어가 보고 있는 위치를 결정합니다",
+          "perspective 속성의 소실점으로 사용됩니다"
+        ]
+      },
+      {
+        "num": 286,
+        "name": "place-content",
+        "desc": " CSS의 단축형 속성 (즉, 한 번에 블록 및 인라인 두 방향을 따라 정렬 내용을 수행 할 수 있습니다 align-content 및 justify-content 등 관련 레이아웃 시스템의 특성) 그리드 또는 인 flexbox .",
+        "values": [
+          "start",
+          "end",
+          "flex-start",
+          "flex-end",
+          "center",
+          "left",
+          "right",
+          "etc"
+        ],
+        "initial": "align-content: normal, justify-content: normal",
+        "syntax": "place-content: center start;",
+        "descApple": "multi-line flex containers",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "그리드나 Flexbox 등의 관련 레이아웃 시스템에서 블록 및 인라인 방향을 따라 콘텐츠를 한 번에 정렬할 수 있습니다"
+        ]
+      },
+      {
+        "num": 287,
+        "name": "place-items",
+        "desc": " 약식 속성은 한 번에 블록 및 인라인 두 방향을 따라 정렬 항목을 수행 할 수 있습니다 (즉, align-items 및 justify-items 속성)과 같은 관련 레이아웃 시스템에 그리드 또는 인 flexbox . 두 번째 값이 설정되지 않은 경우 첫 번째 값도 사용됩니다.",
+        "values": ["align-items의 값", "justify-items의 값"],
+        "initial": "normal, legacy",
+        "syntax": "place-items: center;",
+        "descApple": "all elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "그리드나 Flexbox 등의 관련 레이아웃 시스템에서 블록 및 인라인 방향을 따라 항목을 한 번에 정렬할 수 있습니다",
+          "두 번째 값이 설정되지 않은 경우 첫 번째 값도 이 값에 사용됩니다"
+        ]
+      },
+      {
+        "num": 288,
+        "name": "place-self",
+        "desc": " 단축형 속성은 당신이 (즉, 한 번에 블록과 인라인 방향 모두에서 개별 항목을 정렬 할 수 있습니다",
+        "values": [
+          "auto",
+          "normal",
+          "self-start",
+          "self-end",
+          "flex-start",
+          "flex-end",
+          "center",
+          "etc"
+        ],
+        "initial": "align-self: auto, justify-self: auto",
+        "syntax": "place-self: auto center;",
+        "descApple": "block-level boxes, absolutely-positioned boxes, and grid items",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "그리드나 Flexbox 등의 관련 레이아웃 시스템에서 블록 방향과 인라인 방향 모두에서 개별 항목을 한 번에 정렬할 수 있습니다",
+          "두 번째 값이 없는 경우 첫 번째 값도 이 값에 사용됩니다"
+        ]
+      },
+      {
+        "num": 289,
+        "name": "pointer-events",
+        "desc": "특정 그래픽 요소가 포인터 이벤트의 대상이 될 수 있는 상황을 설정합니다.",
+        "values": ["auto", "none", "svg 전용 값들"],
+        "initial": "auto",
+        "syntax": "pointer-events: auto;",
+        "descApple": "all elements",
+        "descVer": "CSS3",
+        "descStar": "★★★☆☆",
+        "definition": [
+          "특정 그래픽 요소가 포인터 이벤트의 대상이 될 수 있는 상황을 설정합니다."
+        ]
+      },
+      {
+        "num": 290,
+        "name": "position",
+        "desc": " 엘리먼트의 배치방법을 지정한다.",
+        "values": ["static", "relative", "absolute", "fixed", "sticky"],
+        "initial": "static",
+        "syntax": "position: static;",
+        "descApple": "all elements",
+        "descVer": "CSS3",
+        "descStar": "★★★★★",
+        "definition": [
+          "문서에서 요소의 위치를 설정합니다",
+          "속성에 따라 배치된 요소의 최종 위치가 결정됩니다"
+        ]
+      },
+      {
+        "num": 291,
+        "name": "print-color-adjust",
+        "desc": " 출력 장치에서 요소의 모양을 최적화하기 위해 사용자 에이전트 가 수행할 수 있는 작업을 설정합니다.",
+        "values": ["economy", "exact"],
+        "initial": "economy",
+        "syntax": "print-color-adjust: economy;",
+        "descApple": "all elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "출력 디바이스에서 요소의 외관을 최적화하기 위해 수행할 수 있는 작업을 설정합니다",
+          "기본적으로 브라우저는 출력 디바이스의 유형과 기능을 고려하여 필요하다고 판단되는 요소의 외관을 조정할 수 있습니다"
+        ]
+      },
+      {
+        "num": 292,
+        "name": "quotes",
+        "desc": " 브라우저가 사용하는 추가 인용 부호를 렌더링하는 방법을 속성 집합을 설정합니다.",
+        "values": ["none", "auto", "[<string> <string>]+"],
+        "initial": "depends on user agent",
+        "syntax": "quotes: none;",
+        "descApple": "all elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "브라우저가 따옴표를 렌더링하는 방법을 설정합니다",
+          "CSS content속성의 open-quotes 또는 close-quotes 값을 사용합니다"
+        ]
+      },
+      {
+        "num": 293,
+        "name": "resize",
+        "desc": " 요소 의 크기를 조정할 수 있는지 여부와 방향을 결정합니다.",
+        "values": ["none", "both", "horizontal", "vertical", "block", "inline"],
+        "initial": "none",
+        "syntax": "resize: none;",
+        "descApple": "elements with overflow, images or videos, and iframes",
+        "descVer": "CSS3",
+        "descStar": "★★☆☆☆",
+        "definition": [
+          "요소의 크기 조정 가능 여부 및 크기 조정 가능한 경우 방향을 설정합니다"
+        ]
+      },
+      {
+        "num": 294,
+        "name": "right",
+        "desc": "컨테이너의 너비를 참조해, 요소가 오른쪽에서 어디에 배치 될 지 결정합니다.",
+        "values": ["<length>", "<percentage>", "auto", "inherit"],
+        "initial": "auto",
+        "syntax": "right: 3px;",
+        "descApple": "positioned elements",
+        "descVer": "CSS3",
+        "descStar": "★★★★★",
+        "definition": [
+          " 배치된 요소의 수평 위치 지정에 참여합니다",
+          "포지션이 적용되지 않은 요소에는 영향을 주지 않습니다"
+        ]
+      },
+      {
+        "num": 295,
+        "name": "rotate",
+        "desc": "속성과는 별도로 회전 변환을 개별적으로 지정할 수 있습니다",
+        "values": [
+          "angle value",
+          "x, y, or z axis name plus angle value",
+          "vector plus angle value",
+          "none"
+        ],
+        "initial": "none",
+        "syntax": "rotate: none;",
+        "descApple": "transformable elements",
+        "descVer": "CSS3",
+        "descStar": "★★★★☆",
+        "definition": [
+          "자체 속성과는 별도로 회전 변환을 개별적으로 지정할 수 있습니다",
+          "transform의 속성 중 하나입니다."
+        ]
+      },
+      {
+        "num": 296,
+        "name": "row-gap (grid-row-gap)",
+        "desc": " 요소의 행 사이 의 간격( gutter ) 크기를 설정합니다.",
+        "values": ["<length-percentage>"],
+        "initial": "normal",
+        "syntax": "row-gap: 20px;",
+        "descApple": "multi-column elements, flex containers, grid containers",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": ["요소의 행 사이의 간격(거터) 크기를 설정합니다"]
+      },
+      {
+        "num": 297,
+        "name": "ruby-align",
+        "desc": " 기재 위에 다른 루비 원소의 분포를 정의합니다.",
+        "values": ["start", "center", "space-between", "space-around"],
+        "initial": "space-around",
+        "syntax": "ruby-align: start;",
+        "descApple": "ruby bases, ruby annotations, ruby base containers, ruby annotation containers",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": ["베이스에 걸친 다양한 루비 요소의 분포를 정의합니다"]
+      },
+      {
+        "num": 298,
+        "name": "ruby-position",
+        "desc": " 기본 요소에 루비 요소 친척의 위치를 정의합니다. 요소 위(over), 요소 아래(under) 또는 오른쪽에 있는 문자 사이(inter-character)에 위치할 수 있습니다",
+        "values": ["over", "under", "inter-character", "alternate"],
+        "initial": "alternate",
+        "syntax": "ruby-position: over;",
+        "descApple": "ruby annotations containers",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "기본 요소에 상대적인 루비 요소의 위치를 정의합니다",
+          "요소의 위(over), 아래 (under) 또는 문자 사이(inter-character)에 배치할 수 있습니다"
+        ]
+      },
+      {
+        "num": 299,
+        "name": "scale",
+        "desc": " 개별적로 독립적 규모의 변환을 지정할 수 있습니다.",
+        "values": ["1~3개의 value(x,y,z)", "none"],
+        "initial": "none",
+        "syntax": "scale: none;",
+        "descApple": "transformable elements",
+        "descVer": "CSS3",
+        "descStar": "★★★★☆",
+        "definition": [
+          "속성과 독립적으로 척도(크기) 변환을 개별적으로 지정할 수 있습니다",
+          "transform의 속성 중 하나입니다"
+        ]
+      },
+      {
+        "num": 300,
+        "name": "scroll-behavior",
+        "desc": " 탐색 또는 CSSOM 스크롤 API에서 트리거 스크롤 할 때 속성은 스크롤 상자의 동작을 설정합니다.",
+        "values": ["auto", "smooth"],
+        "initial": "auto",
+        "syntax": "scroll-behavior: auto;",
+        "descApple": "scrolling boxes",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "네비게이션 또는 CSSOM 스크롤 API에 의해 스크롤이 트리거될 때의 스크롤 상자의 동작을 설정합니다",
+          "사용자가 수행한 스크롤과 다른 스크롤은 이 속성의 영향을 받지 않습니다"
+        ]
+      },
+      {
+        "num": 301,
+        "name": "scroll-margin",
+        "desc": " 훨씬처럼 값을 지정, 한 번에 요소의 스크롤 여백의 모든 설정합니다.",
+        "values": ["<length>"],
+        "initial": "0",
+        "syntax": "scroll-margin: 10px;",
+        "descApple": "all elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "요소의 모든 스크롤 여백을 한 번에 설정하며 요소의 여백에 대한 속성과 동일한 값을 할당합니다."
+        ]
+      },
+      {
+        "num": 302,
+        "name": "scroll-margin-block",
+        "desc": " 블록 차원의 요소의 스크롤 마진을 설정한다.",
+        "values": ["<length>"],
+        "initial": "0",
+        "syntax": "scroll-margin-block: 10px;",
+        "descApple": "all elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": ["요소의 스크롤 여백을 설정합니다."]
+      },
+      {
+        "num": 303,
+        "name": "scroll-margin-block-end",
+        "desc": " 상자를 스냅포트에 맞추는 데 사용되는 블록 차원의 끝에서 스크롤 스냅 영역의 여백을 정의합니다 .",
+        "values": ["<length>"],
+        "initial": "0",
+        "syntax": "scroll-margin-block-end: 10px;",
+        "descApple": "all elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": ["끝에 있는 스크롤 스냅 영역의 여백을 정의합니다"]
+      },
+      {
+        "num": 304,
+        "name": "scroll-margin-block-start",
+        "desc": " 이 상자를 스냅포트에 맞추는 데 사용되는 블록 차원의 시작 부분에서 스크롤 스냅 영역의 여백을 정의합니다.",
+        "values": ["<length>"],
+        "initial": "0",
+        "syntax": "scroll-margin-block-start: 10px;",
+        "descApple": "all elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": ["시작 부분에 있는 스크롤 스냅 영역의 여백을 정의합니다"]
+      },
+      {
+        "num": 305,
+        "name": "scroll-margin-bottom",
+        "desc": " 엘리먼트의 하단 마진을 지정한다.",
+        "values": ["<length>"],
+        "initial": "0",
+        "syntax": "scroll-margin-bottom: 10px;",
+        "descApple": "all elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": ["스크롤 스냅 영역의 아래쪽 여백을 정의합니다"]
+      },
+      {
+        "num": 306,
+        "name": "scroll-margin-inline",
+        "desc": " 인라인 차원의 요소의 스크롤 마진을 설정한다.",
+        "values": ["<length>"],
+        "initial": "0",
+        "syntax": "scroll-margin-inline: 10px;",
+        "descApple": "all elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": ["인라인 치수에 있는 요소의 스크롤 여백을 설정합니다."]
+      },
+      {
+        "num": 307,
+        "name": "scroll-margin-inline-end",
+        "desc": " 이 상자를 snapport에 맞추는 데 사용되는 인라인 차원의 끝에서 스크롤 스냅 영역의 여백을 정의합니다 .",
+        "values": ["<length>"],
+        "initial": "0",
+        "syntax": "scroll-margin-inline-end: 10px;",
+        "descApple": "all elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "인라인 치수의 끝에 있는 스크롤 스냅 영역의 여백을 정의합니다"
+        ]
+      },
+      {
+        "num": 308,
+        "name": "scroll-margin-inline-start",
+        "desc": " 이 상자를 snapport에 맞추는 데 사용되는 인라인 차원의 시작 부분에서 스크롤 스냅 영역의 여백을 정의합니다 .",
+        "values": ["<length>"],
+        "initial": "0",
+        "syntax": "scroll-margin-inline-start: 10px;",
+        "descApple": "all elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "인라인 치수 시작 부분의 스크롤 스냅 영역의 여백을 정의합니다"
+        ]
+      },
+      {
+        "num": 309,
+        "name": "scroll-margin-left",
+        "desc": " 엘리먼트의 왼쪽 마진을 지정한다.",
+        "values": ["<length>"],
+        "initial": "0",
+        "syntax": "scroll-margin-left: 10px;",
+        "descApple": "all elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": ["스크롤 스냅 영역의 왼쪽 여백을 정의합니다"]
+      },
+      {
+        "num": 310,
+        "name": "scroll-margin-right",
+        "desc": " 이 상자를 snapport에 맞추는 데 사용되는 스크롤 스냅 영역의 오른쪽 여백을 정의합니다.",
+        "values": ["<length>"],
+        "initial": "0",
+        "syntax": "scroll-margin-right: 10px;",
+        "descApple": "all elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": ["스크롤 스냅 영역의 오른쪽 여백을 정의합니다"]
+      },
+      {
+        "num": 311,
+        "name": "scroll-margin-top",
+        "desc": " 이 상자를 snapport에 맞추는 데 사용되는 스크롤 스냅 영역의 위쪽 여백을 정의합니다.",
+        "values": ["<length>"],
+        "initial": "0",
+        "syntax": "scroll-margin-top: 10px;",
+        "descApple": "all elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": ["스크롤 스냅 영역의 상단 여백을 정의합니다"]
+      },
+      {
+        "num": 312,
+        "name": "scroll-padding",
+        "desc": " 한 번에 요소의 모든면에 세트 스크롤 패딩을 설정합니다.",
+        "values": ["<length-percentage>", "auto"],
+        "initial": "auto",
+        "syntax": "scroll-padding: auto;",
+        "descApple": "scroll containers",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "스크롤 포트의 최적 보기 영역(사용자의 시야에 사물을 배치하기 위한 대상 영역으로 사용되는 영역)에 대한 오프셋을 정의합니다"
+        ]
+      },
+      {
+        "num": 313,
+        "name": "scroll-padding-block",
+        "desc": " 블록 차원의 요소의 스크롤 패딩을 설정한다.",
+        "values": ["<length-percentage>", "auto"],
+        "initial": "auto",
+        "syntax": "scroll-padding-block: auto;",
+        "descApple": "scroll containers",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "블럭 요소의 스크롤 패딩을 설정합니다",
+          "스크롤 패딩 속성은 스크롤 포트의 최적 보기 영역(사용자의 시야에 사물을 배치하기 위한 대상 영역으로 사용되는 영역)에 대한 오프셋을 정의합니다"
+        ]
+      },
+      {
+        "num": 314,
+        "name": "scroll-padding-block-end",
+        "desc": " 블록 사이즈의 단부 에지 오프셋을 정의합니다.",
+        "values": ["<length-percentage>", "auto"],
+        "initial": "auto",
+        "syntax": "scroll-padding-block-end: auto;",
+        "descApple": "scroll containers",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "스크롤 포트의 최적 보기 영역의 블록 치수에 있는 끝 모서리에 대한 오프셋을 정의합니다",
+          "사용자의 시야에 사물을 배치하기 위한 대상 영역으로 사용되는 영역입니다"
+        ]
+      },
+      {
+        "num": 315,
+        "name": "scroll-padding-block-start",
+        "desc": " 블록 사이즈의 시작 에지에 대한 속성을 정의 오프셋을 설정합니다.",
+        "values": ["<length-percentage>", "auto"],
+        "initial": "auto",
+        "syntax": "scroll-padding-block-start: auto;",
+        "descApple": "scroll containers",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "스크롤 포트의 최적 보기 영역의 블록 치수에 있는 시작 모서리에 대한 오프셋을 정의합니다",
+          "용자가 보기에 사물을 배치하기 위한 대상 영역으로 사용되는 영역입니다"
+        ]
+      },
+      {
+        "num": 316,
+        "name": "scroll-padding-bottom",
+        "desc": " 밑바닥 오프셋을 정의",
+        "values": ["<length-percentage>", "auto"],
+        "initial": "auto",
+        "syntax": "scroll-padding-bottom: auto;",
+        "descApple": "scroll containers",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "스크롤 포트의 최적 보기 영역 맨 아래에 대한 오프셋을 정의합니다",
+          "사용자의 시야에 사물을 배치하기 위한 대상 영역으로 사용되는 영역입니다"
+        ]
+      },
+      {
+        "num": 317,
+        "name": "scroll-padding-inline",
+        "desc": " 인라인 차원의 요소의 스크롤 패딩을 설정한다.",
+        "values": ["<length-percentage>", "auto"],
+        "initial": "auto",
+        "syntax": "scroll-padding-inline: auto;",
+        "descApple": "scroll containers",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": ["인라인 치수에 있는 요소의 스크롤 패딩을 설정합니다"]
+      },
+      {
+        "num": 318,
+        "name": "scroll-padding-inline-end",
+        "desc": " 인라인 측정에 단부 가장자리의 속성을 정의",
+        "values": ["<length-percentage>", "auto"],
+        "initial": "auto",
+        "syntax": "scroll-padding-inline-end: auto;",
+        "descApple": "scroll containers",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "스크롤 포트의 최적 보기 영역의 인라인 치수(사용자의 시야에 사물을 배치하기 위한 대상 영역으로 사용되는 영역)에서 끝 모서리에 대한 오프셋을 정의합니다"
+        ]
+      },
+      {
+        "num": 319,
+        "name": "scroll-padding-inline-start",
+        "desc": " 인라인 측정의 시작 에지에 대한 속성을 정의 옵셋 영역 보는 최적의 사용자의 관점에서 일을 배치하기위한 대상 영역",
+        "values": ["<length-percentage>", "auto"],
+        "initial": "auto",
+        "syntax": "scroll-padding-inline-start: auto;",
+        "descApple": "scroll containers",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "스크롤 포트의 최적 보기 영역의 인라인 치수에 있는 시작 에지에 대한 오프셋을 정의합니다",
+          "이 영역은 사용자의 시야에 사물을 배치하기 위한 대상 영역으로 사용됩니다"
+        ]
+      },
+      {
+        "num": 320,
+        "name": "scroll-padding-left",
+        "desc": " 좌측의 속성을 정의 옵셋 최적 가시 영역 은 사용자의 관점에서 일을 배치하기위한 대상 영역로서 사용하는 영역을 정의합니다.",
+        "values": ["<length-percentage>", "auto"],
+        "initial": "auto",
+        "syntax": "scroll-padding-left: auto;",
+        "descApple": "scroll containers",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "스크롤 포트의 최적 보기 영역 왼쪽에 대한 오프셋을 정의합니다",
+          "이 영역은 사용자의 보기에 사물을 배치하기 위한 대상 영역으로 사용됩니다"
+        ]
+      },
+      {
+        "num": 321,
+        "name": "scroll-padding-right",
+        "desc": " 우측에 대한 오프셋을 정의합니다.",
+        "values": ["<length-percentage>", "auto"],
+        "initial": "auto",
+        "syntax": "scroll-padding-right: auto;",
+        "descApple": "scroll containers",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "스크롤 포트의 최적 보기 영역 오른쪽에 대한 오프셋을 정의합니다",
+          "용자의 시야에 사물을 배치하기 위한 대상 영역으로 사용되는 영역입니다"
+        ]
+      },
+      {
+        "num": 322,
+        "name": "scroll-padding-top",
+        "desc": " 속성의 상단에 대해 오프셋을 정의",
+        "values": ["<length-percentage>", "auto"],
+        "initial": "auto",
+        "syntax": "scroll-padding-top: auto;",
+        "descApple": "scroll containers",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "스크롤 포트의 최적 보기 영역 상단에 대한 간격띄우기를 정의합니다",
+          "이 영역은 사용자의 시야에 사물을 배치하기 위한 대상 영역으로 사용됩니다"
+        ]
+      },
+      {
+        "num": 323,
+        "name": "scroll-snap-align",
+        "desc": " 상자의 스냅 위치를 스냅 컨테이너의 스냅포트(정렬 컨테이너) 내에서 스냅 영역(정렬 주제)의 정렬로 지정합니다.",
+        "values": ["none", "start", "end", "center"],
+        "initial": "none",
+        "syntax": "scroll-snap-align: none;",
+        "descApple": "all elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "박스의 스냅 위치를 스냅 컨테이너의 접점(얼라인먼트 컨테이너) 내에서 스냅 영역(얼라인먼트 제목)의 정렬로 지정합니다",
+          "두 값은 각각 블록 축과 인라인 축에서 스냅 정렬을 지정합니다",
+          "값을 하나만 지정하면 두 번째 값은 기본적으로 동일한 값으로 설정됩니다"
+        ]
+      },
+      {
+        "num": 324,
+        "name": "scroll-snap-coordinate",
+        "desc": "각 축에 대해 가장 가까운 상위 스크롤 컨테이너와 정렬되는 요소 내의 x 및 y 좌표 위치를 정의합니다",
+        "values": ["none", "<position>"],
+        "initial": "none",
+        "syntax": "scroll-snap-coordinate: none;",
+        "descApple": "all elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "각 축에 대해 가장 가까운 상위 스크롤 컨테이너와 정렬되는 요소 내의 x 및 y 좌표 위치를 정의합니다",
+          "이 기능은 더 이상 권장되지 않습니다"
+        ]
+      },
+      {
+        "num": 325,
+        "name": "scroll-snap-destination",
+        "desc": "스크롤 컨테이너의 시각적 뷰포트 내에서 요소 스냅점이 정렬되는 x 및 y 좌표의 위치를 정의합니다",
+        "values": ["<position>"],
+        "initial": "0px 0px",
+        "syntax": "scroll-snap-destination: 400px 600px;",
+        "descApple": "scroll containers",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "스크롤 컨테이너의 시각적 뷰포트 내에서 요소 스냅점이 정렬되는 x 및 y 좌표의 위치를 정의합니다.",
+          "이 기능은 더 이상 권장되지 않습니다"
+        ]
+      },
+      {
+        "num": 326,
+        "name": "scroll-snap-points-x",
+        "desc": "스냅점이 적용되는 스크롤 컨테이너의 내용 내에서 스냅점의 수평 위치를 정의합니다.",
+        "values": ["none", "repeat(<length-percentage>)"],
+        "initial": "none",
+        "syntax": "scroll-snap-points-x: none;",
+        "descApple": "scroll containers",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "스냅점이 적용되는 스크롤 컨테이너의 내용 내에서 스냅점의 수평 위치를 정의합니다",
+          "이 기능은 더 이상 권장되지 않습니다"
+        ]
+      },
+      {
+        "num": 327,
+        "name": "scroll-snap-points-y",
+        "desc": "스냅점이 적용되는 스크롤 컨테이너의 내용 내에서 스냅점의 수직 위치를 정의합니다",
+        "values": ["none", "repeat(<length-percentage>)"],
+        "initial": "none",
+        "syntax": "scroll-snap-points-y: none;",
+        "descApple": "scroll containers",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "스냅점이 적용되는 스크롤 컨테이너의 내용 내에서 스냅점의 수직 위치를 정의합니다",
+          "이 기능은 더 이상 권장되지 않습니다"
+        ]
+      },
+      {
+        "num": 328,
+        "name": "scroll-snap-stop",
+        "desc": " 스크롤 컨테이너가 가능한 스냅 위치에 허용되는지 여부 속성을 정의합니다.",
+        "values": ["normal", "always"],
+        "initial": "normal",
+        "syntax": "scroll-snap-stop: normal;",
+        "descApple": "all elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "스크롤 컨테이너가 가능한 스냅 위치를 '통과'할 수 있는지 여부를 정의합니다."
+        ]
+      },
+      {
+        "num": 329,
+        "name": "scroll-snap-type",
+        "desc": "스냅 포인트가 있는 경우 스크롤 컨테이너에 얼마나 엄격하게 적용되는지를 설정합니다",
+        "values": [
+          "none",
+          "x",
+          "y",
+          "block",
+          "inline",
+          "both",
+          "mandatory",
+          "proximity"
+        ],
+        "initial": "none",
+        "syntax": "scroll-snap-type: none;",
+        "descApple": "all elements",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": [
+          "스냅 포인트가 있는 경우 스크롤 컨테이너에 얼마나 엄격하게 적용되는지를 설정합니다.",
+          "스냅 포인트를 적용하기 위해 사용되는 정확한 애니메이션 또는 물리 지정은 이 속성에서 다루지 않으며 대신 사용자 에이전트에 맡겨집니다"
+        ]
+      },
+      {
+        "num": 330,
+        "name": "scrollbar-color",
+        "desc": " 스크롤바의 트랙과 막대 색상을 설정합니다.",
+        "values": ["<scrollbar-color>", "auto"],
+        "initial": "auto",
+        "syntax": "scrollbar-color: auto;",
+        "descApple": "scrolling boxes",
+        "descVer": "CSS3",
+        "descStar": "★☆☆☆☆",
+        "definition": ["스크롤바의 트랙과 막대 색상을 설정합니다"]
+      } 
     ]
   }
